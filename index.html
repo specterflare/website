@@ -1,140 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Tachiyomi</title>
-		<meta charset="utf-8" />
-		<meta content="width=device-width, initial-scale=1" name="viewport" />
-		<meta content="" name="description" />
-		<link href="favicon.ico" rel="icon" />
-		<link href="assets/css/bootstrap-4.3.1.min.css" rel="stylesheet" />
-		<link href="assets/css/bootstrap-toc-1.0.1.min.css" rel="stylesheet" />
-		<link href="assets/css/style.css" rel="stylesheet" />
-	</head>
-	<body data-spy="scroll" data-target="#toc">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-3">
-					<nav class="sticky-top" data-toggle="toc" id="toc"><!--toc--></nav>
-				</div>
-				<div class="col-sm-6">
-					<div class="text-center mb-4"> <img src="assets/media/tachiyomi.png" />
-						<h1 id="getting-started-with-tachiyomi">Getting started with Tachiyomi</h1>
-						<p><a href="https://github.com/inorichi/tachiyomi" target="_blank">Tachiyomi</a> is a free and open source manga reader for Android.</p>
-					</div>
-					<h2 id="installation">Installation</h2>
-					<p>Download the latest stable release of Tachiyomi from <a href="https://github.com/inorichi/tachiyomi/releases/latest">GitHub.</a></p>
-					<p><code>tachiyomi-vX.Y.Z.apk</code></p>
-					<p>If you want to try new features before they get to the stable release, you can download the dev version <a href="http://tachiyomi.kanade.eu/latest">here</a>.</p>
-					<p>Open and install the <code>.apk</code> file you just downloaded from GitHub.</p>
-					<div class="d-flex justify-content-center"> <img height="145" intrinsicsize="1000x500" src="assets/media/installprompt.png" width="300" /></div>
-					<h3 id="installing-an-extension">Installing an extension</h3>
-					<p>Now that Tachiyomi is installed, open the app and navigate to the <code>Extensions</code> tab.</p>
-					<p>In this guide we will use MangaDex, our most popular extension. Press the <code>Install</code> button and accept the installation prompt that will be shown.</p>
-					<p>If you're getting stopped by a security prompt and don't know what to do you can read this FAQ section: <a href="#how-do-i-allow-third-party-installations"><span class="mt-5 text-muted">("How do I allow third-party installations on my phone?")</span></a></p>
-					<figure>
-						<video controls="controls" crossorigin="use-credentials" height="534" intrinsicsize="500x100" loading="lazy" loop="loop" muted="muted" playsinline="playsinline" poster="assets/media/extensioninstaller.png" preload="none" width="300">
-							<source src="assets/media/extensioninstaller.webm" type="video/webm" />
-							<source src="assets/media/extensioninstaller.mp4" type="video/mp4" />
-						</video>
-					</figure>
-					<h3 id="adding-manga-to-your-library">Adding manga to your library</h3>
-					<p>Now that you've installed the MangaDex extension it should show up in the <code>Catalogues</code> tab. The items appearing here are called <code>Sources</code> <span class="mt-5 text-muted">(can also be called Catalogues)</span>, an extension can contain multiple sources.</p>
-					<p>To find and add manga, you can now either use the <code>Latest</code> button on your source, or you can use <code>Browse</code> and search for it.</p>
-					<p>Now that you've found manga that you want to add to your library, click on it and then press the blue bookmark button.</p>
-					<p>It should now appear in your <code>My library</code> tab, ready to be read!</p>
-					<figure>
-						<video controls="controls" crossorigin="use-credentials" height="534" intrinsicsize="500x1000" loading="lazy" loop="loop" muted="muted" playsinline="playsinline" poster="assets/media/addtolibrary.png" preload="none" width="300">
-							<source src="assets/media/addtolibrary.webm" type="video/webm" />
-							<source src="assets/media/addtolibrary.mp4" type="video/mp4" />
-						</video>
-					</figure>
-					<div class="mb-4">
-						<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
-						<div class="mb-5 accordion">
-							<details>
-								<summary><h3 id="what-are-some-good-extensions">What are some good extensions?</h3></summary>
-								<p>The most popular are MangaDex, MangaRock and MangaSee, these are large sites which host content from scanlators, there's also extensions like Genkan, Madara, FoolSlide and ComiCake which contain sources which host directly from the scanlators own websites.</p>
-								<p><a href="https://docs.google.com/spreadsheets/d/1TyJEUg78WWH4zgnf3g6M2lkbWpBWbd40FYiPVQhW8IU/edit#gid=0" target="_blank">Here</a>'s a good spreadsheet showing the different extensions and their sources.</p>
-							</details>
-							<details>
-								<summary><h3 id="how-do-i-allow-third-party-installations">How do I allow third-party installations?</h3></summary>
-								<p>When installing your first extension and are promted that your phone isn't allowed to install unknown apps from that source, simply press the <code>Settings</code> button and then allow it.</p>
-								<p>Two example videos, left one is for newer Androids.</p>
-								<figure>
-									<video controls="controls" crossorigin="use-credentials" height="355" intrinsicsize="400x688" loading="lazy" loop="loop" muted="muted" playsinline="playsinline" poster="assets/media/unknownapps-api28.png" preload="none" width="200">
-										<source src="assets/media/unknownapps-api28.webm" type="video/webm" />
-										<source src="assets/media/unknownapps-api28.mp4" type="video/mp4" />
-									</video>
-									<video controls="controls" crossorigin="use-credentials" height="355" intrinsicsize="400x688" loading="lazy" loop="loop" muted="muted" playsinline="playsinline" poster="assets/media/unknownapps-api25.png" preload="none" width="200">
-										<source src="assets/media/unknownapps-api25.webm" type="video/webm" />
-										<source src="assets/media/unknownapps-api25.mp4" type="video/mp4" />
-									</video>
-								</figure>
-							</details>
-							<details>
-								<summary><h3 id="extensions-not-installing">Why won't the extensions install?</h3></summary>
-								<p>In some cases your phone might have some issues downloading the extensions, in those cases you can try installing them yourselves directly from the source. <a href="https://github.com/inorichi/tachiyomi-extensions/tree/repo/apk" target="_blank">Here</a>'s the repository for the files.</p>
-								<p>To install just download the <code>.apk</code> file for the extension you want and then install it, like how you installed Tachiyomi.</p>
-							</details>
-							<details>
-								<summary><h3 id="tachiyomi-automatic-updates">Does Tachiyomi have automatic updates?</h3></summary>
-								<p>The Tachiyomi app now has in-app updating for both stable and dev versions. If you go to <code>Settings > About > Version</code> to check for updates, you can force an update there or wait for the app to notify you.</p>
-							</details>
-							<details>
-								<summary><h3 id="image-display-issues">Why are some images not displayed?</h3></summary>
-								<p>Aside from network issues, it could be because the images are too big or the decoder doesn't support that image.</p>
-							</details>
-							<details>
-								<summary><h3 id="tachiyomi-menu-language">How do I change the app language?</h3></summary>
-								<p>Tachiyomi is (as of writing) available in 35 different languages.</p>
-								<p>By default, the app language follows the language setting of your device.</p>
-								<p>You can also set your own preferred language for Tachiyomi. Simply from side panel go to the <code>Settings > General > Language</code>.</p>
-								<p><code>Note:</code> Only the UI has been localized, content will still be using the language of the source selected (i.e. English for KissManga source, Some sources have multiple Language too).</p>
-								<p class="mt-5 text-muted">If you want to help translate Tachiyomi, read <a href="https://github.com/inorichi/tachiyomi/wiki/Translation" target="_blank">this</a>.</p>
-								<p><a href="https://hosted.weblate.org/engage/tachiyomi/?utm_source=widget" target="_blank"><img src="https://hosted.weblate.org/widgets/tachiyomi/-/multi-auto.svg" /></a></p>
-							</details>
-							<br />
-							<details>
-								<summary><h3 id="mangadex-no-results"><span class="mt-5 text-muted">Mangadex:</span> No results when searching.</h3></summary>
-								<p><b>Note:</b> Make sure you're on app version <code>0.8.4</code> or higher.</p>
-								<p>If you're not getting any results when searching MangaDex then you need to log in.</p>
-								<p>To do so, go to <code>Browse</code>/<code>Latest</code> for MangaDex under <code>Catalogues</code>, open any manga from the list and then press the overflow menu (3 dot menu) in the top-right corner and then the <code>Open in web view</code> button.</p>
-								<p>Now go to the hamburger menu, press the <code>Manga</code> drop-down and then choose either <code>Sign up</code> or <code>Log in</code> to proceed with the log in.</p>
-							</details>
-							<details>
-								<summary><h3 id="mangadex-chapters-from-mangaplus-broken"><span class="mt-5 text-muted">Mangadex:</span> Chapters from Mangaplus are broken.</h3></summary>
-								<p>Install the Mangaplus extension and then migrate the manga that uses Mangaplus on Mangadex onto the Mangaplus source.</p>
-							</details>
-							<details>
-								<summary><h3 id="mangarock-slow-updates"><span class="mt-5 text-muted">MangaRock:</span> Slow updates to Tachiyomi.</h3></summary>
-								<p>MangaRock's API updates less frequently than the app or the website, so you may need to wait a couple hours or more before it shows up in Tachiyomi.</p>
-							</details>
-							<details>
-								<summary><h3 id="madara-missing-leviatan-scans"><span class="mt-5 text-muted">Madara:</span> Leviatan Scans is missing.</h3></summary>
-								<p>Leviatan Scans has shifted from Madara to Genkan extension.</p>
-								<p>Install Genkan. Migrate all Leviatan scans. Update Madara.</p>
-							</details>
-							<p class="mt-5 text-muted">More frequently asked questions can be found <a href="https://github.com/inorichi/tachiyomi/wiki/FAQ#frequently-asked-questions" target="_blank">here</a>.</p>
-						</div>
-						<h2 id="related-links">Related Links</h2>
-						<h3 id="github"><a href="https://github.com/inorichi/tachiyomi/">Github</a></h3>
-						<p>At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. It's here we store our FOSS (Free and open source software) code for Tachiyomi.</p>
-						<h3 id="wiki"><a href="https://github.com/inorichi/tachiyomi/wiki">GitHub Wiki</a></h3>
-						<p>Every GitHub repository comes equipped with a section for hosting documentation, called a wiki. Here you can find out more about features and how to fix a problem you might have.</p>
-						<h3 id="discord"><a href="https://discord.gg/tachiyomi">Discord</a></h3>
-						<p>Discord is a proprietary freeware VoIP application and digital distribution platform that specializes in text, image, video and audio communication between users in a chat channel. Join our Discord server for chatting or if you want help.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer class="page-footer font-small blue">
-			<div class="footer-copyright text-center py-3"> <a href="https://github.com/tachiyomiorg/website">Website Repository</a></div>
-		</footer>
-		<!-- Scripts to be removed when possible -->
-		<script src="assets/js/jquery-3.4.1.slim.min.js" ></script>
-		<script src="assets/js/bootstrap-4.3.1.min.js"></script>
-		<script src="assets/js/bootstrap-toc-1.0.1.min.js"></script>
-		<!-- Convenience script -->
-		<script src="assets/js/script.js"></script>
-	</body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tachiyomi</title>
+    <meta name="description" content="Free and open source manga reader for Android">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.297241b2.css" as="style"><link rel="preload" href="/assets/js/app.4d1ec60e.js" as="script"><link rel="preload" href="/assets/js/3.41b53724.js" as="script"><link rel="preload" href="/assets/js/8.f6973efe.js" as="script"><link rel="prefetch" href="/assets/js/1.966b6156.js"><link rel="prefetch" href="/assets/js/10.fd09f32d.js"><link rel="prefetch" href="/assets/js/11.728382f1.js"><link rel="prefetch" href="/assets/js/12.60e93fe7.js"><link rel="prefetch" href="/assets/js/4.384cebfb.js"><link rel="prefetch" href="/assets/js/5.4fa84433.js"><link rel="prefetch" href="/assets/js/6.2a74043c.js"><link rel="prefetch" href="/assets/js/7.285045f8.js"><link rel="prefetch" href="/assets/js/9.0f2953bc.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.297241b2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">Tachiyomi</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">Guide</a></div><div class="nav-item"><a href="/faq/" class="nav-link">FAQ</a></div><div class="nav-item"><a href="/extensions/" class="nav-link">Extensions</a></div><div class="nav-item"><a href="https://github.com/inorichi/tachiyomi/wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Wiki
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://discord.gg/tachiyomi" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Discord
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/inorichi/tachiyomi" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link">Guide</a></div><div class="nav-item"><a href="/faq/" class="nav-link">FAQ</a></div><div class="nav-item"><a href="/extensions/" class="nav-link">Extensions</a></div><div class="nav-item"><a href="https://github.com/inorichi/tachiyomi/wiki" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Wiki
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://discord.gg/tachiyomi" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Discord
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/inorichi/tachiyomi" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/" class="active sidebar-link">Home</a></li><li><a href="/guide/" class="sidebar-link">Getting Started</a></li><li><a href="/faq/" class="sidebar-link">FAQ</a></li><li><a href="/extensions/" class="sidebar-link">Available extensions</a></li></ul> </aside> <main aria-labelledby="main-title" class="home"><header class="hero"><img src="/assets/media/hero.png" alt="hero"> <h1 id="main-title">Tachiyomi</h1> <p class="description">
+      Free and open source manga reader for Android
+    </p> <p class="action"><a href="/guide/" class="nav-link action-button">Get Started →</a></p></header> <div class="features"><div class="feature"><h2>Extensions</h2> <p>Online reading from sources such as KissManga, MangaDex and more.</p></div><div class="feature"><h2>Tracking</h2> <p>MyAnimeList, AniList and Kitsu support.</p></div><div class="feature"><h2>Configurable</h2> <p>Reader with multiple viewers, reading directions and other settings.</p></div></div> <div class="theme-default-content custom content__default"><p><img src="/assets/media/screens.png" alt="screens"></p></div> <div class="footer">
+    Apache Licensed | Copyright © 2015-present Javier Tomás
+  </div></main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.4d1ec60e.js" defer></script><script src="/assets/js/3.41b53724.js" defer></script><script src="/assets/js/8.f6973efe.js" defer></script>
+  </body>
 </html>
