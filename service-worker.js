@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "89104ec0904a32bdf7b31dceba62799e"
+    "revision": "1c5737aa8092782b66aab2dc7845102f"
   },
   {
     "url": "assets/Browse-Dark.png",
@@ -38,8 +38,8 @@ self.__precacheManifest = [
     "revision": "af36bd987afd8aeecc8283e7051fe57d"
   },
   {
-    "url": "assets/css/0.styles.9d8ebfa2.css",
-    "revision": "215b4ff8a4aefa5c4bf038bcb0715a55"
+    "url": "assets/css/0.styles.e7a6394b.css",
+    "revision": "2cda0d3d7661d4482dae3cc67c97fe43"
   },
   {
     "url": "assets/fonts/MaterialIcons-Regular.012cf6a1.woff",
@@ -222,8 +222,8 @@ self.__precacheManifest = [
     "revision": "9164e770f42283e5f7c9abd15706d5f6"
   },
   {
-    "url": "assets/js/7.c47d30c6.js",
-    "revision": "b026bc50063bfc90db9e424dffdb38d6"
+    "url": "assets/js/7.b0bc47c4.js",
+    "revision": "a7fbe55d173b2f18166862289d5bad19"
   },
   {
     "url": "assets/js/8.18cd507f.js",
@@ -234,8 +234,8 @@ self.__precacheManifest = [
     "revision": "03a2407d02a7c4b092a3c09b6f0b252d"
   },
   {
-    "url": "assets/js/app.5e6dabce.js",
-    "revision": "a18af223e2a8754256e05827733acb48"
+    "url": "assets/js/app.a7cba139.js",
+    "revision": "2f581f90b2002952d713fdd8e1611e48"
   },
   {
     "url": "assets/js/vendors~docsearch.2c0050e7.js",
@@ -411,11 +411,11 @@ self.__precacheManifest = [
   },
   {
     "url": "extensions/index.html",
-    "revision": "ee4c5c0ccc106ddc0cc2dde318ed422b"
+    "revision": "9be88db8940b64df28c2b12546d0277d"
   },
   {
     "url": "forks/index.html",
-    "revision": "fda0e2bf7db70530126d96744b88280f"
+    "revision": "0ee564f88107da6ede911e971456790c"
   },
   {
     "url": "forks/Neko/img/banner.png",
@@ -427,7 +427,7 @@ self.__precacheManifest = [
   },
   {
     "url": "forks/Neko/index.html",
-    "revision": "26035072dd6f83dbef47553b4924b6a7"
+    "revision": "1a4f9d55645167a89d5ad9b61f0a71df"
   },
   {
     "url": "forks/TachiyomiAZ/img/gunz.png",
@@ -439,7 +439,7 @@ self.__precacheManifest = [
   },
   {
     "url": "forks/TachiyomiAZ/index.html",
-    "revision": "f5e1e1fc07dde9384026474a160e3523"
+    "revision": "88a69408f67e4c679f73946beb3569b8"
   },
   {
     "url": "forks/TachiyomiEH/img/banner.png",
@@ -451,7 +451,7 @@ self.__precacheManifest = [
   },
   {
     "url": "forks/TachiyomiEH/index.html",
-    "revision": "995a13b2e1035c20a437a0e5287c6552"
+    "revision": "32f22bccc6145d5d57298fcff5ff808d"
   },
   {
     "url": "forks/TachiyomiJ2K/img/banner.png",
@@ -463,71 +463,71 @@ self.__precacheManifest = [
   },
   {
     "url": "forks/TachiyomiJ2K/index.html",
-    "revision": "0074ad1b23a209132d4ac2f1d911ae47"
+    "revision": "ed753d886dfeae04bae49069dc28e99f"
   },
   {
     "url": "help/contribution/index.html",
-    "revision": "e235ada68c95d3708c6808117da4fd4a"
+    "revision": "660d83006146e0b8c0daa9155373987f"
   },
   {
     "url": "help/faq/index.html",
-    "revision": "60446ed0a8b5043fc7d617e649da7176"
+    "revision": "2862ed203107997fb16c9ff621fa9aa9"
   },
   {
     "url": "help/guides/categories/index.html",
-    "revision": "15dbc0651ed1251d2389fa1afe977905"
+    "revision": "be80c849dba2ab5e68ab5934423836d3"
   },
   {
     "url": "help/guides/creating-backups/index.html",
-    "revision": "40e8648dd30f496da0f3b8907ae4bcf5"
+    "revision": "04dc30e2921f4bb6077041b34201af53"
   },
   {
     "url": "help/guides/getting-started/index.html",
-    "revision": "dd0d0ec8a10f26f58b211df917b4f2d9"
+    "revision": "c79db0aa1024eace675c4695c0603542"
   },
   {
     "url": "help/guides/reading-local-manga/index.html",
-    "revision": "d88f0195de37ce5296f6c4174db83ff4"
+    "revision": "507b56ab95ace3eab42368247d94113f"
   },
   {
     "url": "help/guides/settings/advanced/index.html",
-    "revision": "5c9f5e23ba6f237998caaa7b93b1a99f"
+    "revision": "f301fe3c0b7f81c488dae6f333bf32e9"
   },
   {
     "url": "help/guides/settings/backup/index.html",
-    "revision": "43caa49a7ad00f1c3e46c61b93de3988"
+    "revision": "ccff53172376f060b9c3690e1859bd22"
   },
   {
     "url": "help/guides/settings/downloads/index.html",
-    "revision": "97034e5d1370f5e6ccc0d138b3273a31"
+    "revision": "9769836d0f8b69ca022345c6308624a3"
   },
   {
     "url": "help/guides/settings/general/index.html",
-    "revision": "1a3ff426978842cfe43d18248ff93003"
+    "revision": "d37873d4a5f3018fb0fc3843287d5022"
   },
   {
     "url": "help/guides/settings/index.html",
-    "revision": "8872c55347dcb67d485a392a53470dbe"
+    "revision": "d2771e4d679d59dd377d16e8e7b45d28"
   },
   {
     "url": "help/guides/settings/reader/index.html",
-    "revision": "f28ee99f56f86eca5c010558add5431e"
+    "revision": "5aae18aa5e0d989f0c46879e04f1fcf0"
   },
   {
     "url": "help/guides/settings/tracking/index.html",
-    "revision": "099c2a920030827631569f8ef507942d"
+    "revision": "5bd1bfff8de9725222a52cea42c915c8"
   },
   {
     "url": "help/guides/source-migration/index.html",
-    "revision": "0c35b78bbe6c8b6ae8a7972878c458e7"
+    "revision": "0c32ded963f836bd5bdd30cb064acb7e"
   },
   {
     "url": "help/guides/source-problems/index.html",
-    "revision": "76f0591d6fa73af0eaa9dabc27e6c3ad"
+    "revision": "2ae7ad1ba3c925e615091ceec219a67d"
   },
   {
     "url": "help/index.html",
-    "revision": "36b885712ffa0d4191919d329484ed96"
+    "revision": "eee526cb73093b40020bf10c0f858a61"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -575,7 +575,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "89c24ebce1f79519aece3fe6ab3dd6aa"
+    "revision": "4b1c76dca20dfda17719cf4c8cea48a2"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
